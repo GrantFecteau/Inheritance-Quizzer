@@ -1,22 +1,27 @@
 import java.util.*;
 public class Quizzer
 	{
-		String question ="";
-		String answer1 ="";
-		String answer2 ="";
-		boolean value = false;
+		String question = "";
+		String answer1 = "";
+		String answer2 = "";
+		String answer3 = "";
+		String answer4 = "";
+		static ArrayList <Quizzer> quiz = new ArrayList <Quizzer>();
 		
-		public Quizzer (String q, boolean v)
+		public Quizzer (String q, String a1, String a2, String a3, String a4)
 		{
 			question = q;
-			value = v;
+			answer1 = a1;
+			answer2 = a2;
+			answer3 = a3;
+			answer4 = a4;
 		}
 
 		public static void main(String[] args)
 			{
-				ArrayList <Quizzer> quiz = new ArrayList <Quizzer>();
 				
-				quiz.add(new Quizzer("If makesNoise() is called on Animal a = new Reptile();. It will return The animal makes sound.", true));
+				
+				
 				
 				
 			}
@@ -24,6 +29,14 @@ public class Quizzer
 		public static void askQuestion()
 		{
 			
+		}
+		
+		public static void addQuestion()
+		{
+			quiz.add(new Quizzer("If makesNoise() is called on Animal a = new Reptile();. What will be returned.","'The animal makes a sound.'","Error","'The reptile makes a sound.","5" ));
+			quiz.add(new Quizzer("If Animal a = new Animal(); what will num equal?","5","3","20","10"));
+			quiz.add(new Quizzer("If the num = i; in the Reptile class is no longer commented out and Animal a = new Reptile(4);, what will num equal.","4","6","8","2"));
+			quiz.add(new Quizzer(""))
 		}
 
 		public String getQuestion()
