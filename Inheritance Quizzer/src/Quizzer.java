@@ -87,7 +87,7 @@ public class Quizzer
 		{
 			for (int o = 0; o < options.size(); o++)
 			{
-				System.out.println((o+1)+ ":" + options.get(o));
+				System.out.println((o+1)+ " : " + options.get(o));
 			}
 		}
 		
