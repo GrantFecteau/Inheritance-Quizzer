@@ -1,5 +1,5 @@
 
-public class Mammal extends Animal
+public class Mammal extends Animal implements FlightBehavior
 	{
 		public Mammal()
 		{
@@ -14,5 +14,11 @@ public class Mammal extends Animal
 		public String careForYoung()
 		{
 			return "The mammal cares for its young.";
+		}
+
+		@Override
+		public String flies() {
+			// TODO Auto-generated method stub
+			return null;
 		}
 	}

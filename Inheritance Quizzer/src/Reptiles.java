@@ -10,7 +10,7 @@ public class Reptiles extends Animal
 			{
 				
 				super(i);
-				num = i;
+				//num = i;
 			}
 			
 		public String makesNoise()
