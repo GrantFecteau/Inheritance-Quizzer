@@ -2,7 +2,7 @@
 public class Animal
 	{
 		protected int num;
-		
+		protected FlightBehavior myFlightBehavior;
 		public Animal()
 		{
 			num = 5;
