@@ -11,6 +11,10 @@ public class Snake extends Reptiles
 		{
 			super();
 		}
+		public String slither()
+		{
+			return "The snake slithers";
+		}
 		
 		public String makesNoise()
 			{

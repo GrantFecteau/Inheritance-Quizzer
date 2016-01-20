@@ -9,13 +9,16 @@ public class Runner
 				Animal ab = new Animal();
 				Animal as = new Snake();
 				Snake s = new Snake(5);
+				FlightBehavior f = new Mammal();
 				
+				System.out.println(f.flies());
 				System.out.println(s.getNum());
 				System.out.println(a.myFlightBehavior.flies());
 				System.out.println(a.getNum());
 				System.out.println(a.makesNoise());
 				System.out.println(b.makesNoise());
 				System.out.println(ab.eats());
+				System.out.println(s.getNum());
 			}
 
 	}

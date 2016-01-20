@@ -80,12 +80,12 @@ public class Quizzer
 			quiz.add(new Quizzer("What will num be if Snake s = new Snake(5) is called?","2","10","5","0"));
 			quiz.add(new Quizzer("What will num be if Snake s = new Snake() is called?","10","12","18","5"));
 			quiz.add(new Quizzer("What will be returned if eats() is called on Animal a = new Animal()?","'The animal eats.'","'The mammal eats nothing.","Error","Nothing"));
-			quiz.add(new Quizzer("","","","",""));
-			quiz.add(new Quizzer("","","","",""));
-			quiz.add(new Quizzer("","","","",""));
-			quiz.add(new Quizzer("","","","",""));
-			quiz.add(new Quizzer("","","","",""));
-			quiz.add(new Quizzer("","","","",""));
+			quiz.add(new Quizzer("What will happen if Snakes s = new Reptitiles() is called?","Error","Nothing","A Snake obj will be made with a Reptiles constructor.","A Reptiles obj will be made with a Snakes constructor."));
+			quiz.add(new Quizzer("What methods will Reptiles r = new Snake() have access to?","makesNoise(), growTail(), eats()","slither(), growTail()","None, it will cause an error.","Only Animal methods."));
+			quiz.add(new Quizzer("What will happen if FlightBehavior f = new CanFly() is called?","A FlightBehavior object will be made with a CanFly constructor.","Error","Nothing","A CanFly object will be made with the FlightBehavior constructor."));
+			quiz.add(new Quizzer("If FlightBehavior f = new CanFly() is called, what will the method flies return?","'Hey I can fly!'","'Hey I can't fly!'","Null","It will cause an error."));
+			quiz.add(new Quizzer("What will the flies method return if it is called on FlightBehavior f = new FlightBehavior()?","Error, you cannot instantiate an interface.","'Hey I can fly!'","Nothing","'Hey I can't fly!'"));
+			quiz.add(new Quizzer("What will the flies method return if it is called on FlightBehavior f = new Mammal()?","null","Error","'Hey I can fly!'","'Hey I can't fly'"));
 			
 			
 			
